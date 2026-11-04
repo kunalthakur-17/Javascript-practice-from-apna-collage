@@ -64,21 +64,24 @@ let id = Symbol("id");
 console.log(id)
 console.log("id",typeof(id))
 
+
+// non-primitive data type
+
 // Object: Stores related data as key-value pairs.
 let user = { name: "Kunal", age: 25 };
 
-
-
+console.log(user)
+console.log("user",typeof(user))
 
 
 // Array: Stores multiple values in an ordered list. Each value has an index, starting from 0.
 let colors = ["red", "blue", "green"];
-
-
-
-
+console.log(colors)
+console.log("colors",typeof(colors))
 
 // Function: A reusable block of code that performs a task. It can take inputs and return a result.
 function add(a, b) {
   return a + b;
 }
+console.log(add(10,20))
+console.log("add",typeof(add))
