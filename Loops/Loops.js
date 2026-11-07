@@ -37,13 +37,37 @@
 // do-while loop
 
 // A do-while loop in JavaScript executes a block of code at least once, then checks the condition. If the condition is true, the loop runs again.
-let i = 1
-do{
-    console.log(i)
-    i++
-}while(i<=5)
+
+// let i = 1
+// do{
+//     console.log(i)
+//     i++
+// }while(i<=5)
+
+
 
 
 
 // for of loops
 // A for...of loop in JavaScript is used to iterate over the values of an iterable, such as an array or string. It gives us each value one by one.
+
+
+// let fruits = ["Apple", "Mango", "Banana"];
+
+// for(let fruit of fruits){
+//     console.log(fruit)
+// }
+
+// for in loop
+
+// A for...in loop in JavaScript is used to iterate over the enumerable property keys of an object. It gives us the keys one by one.
+
+// let user = {
+//     name: "Kunal",
+//     age: 25,
+//     city: "Palampur"
+// };
+
+// for (let key in user) {
+//     console.log(key, user[key]);
+// }
