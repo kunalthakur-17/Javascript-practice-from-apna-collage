@@ -49,6 +49,17 @@
 // let newStr= str.replace("Thakur", "Singh")
 // console.log(newStr)
 
-let str = "Kunal Thakur"
-let newStr= str.charAt(1)
-console.log(newStr)
+// let str = "Kunal Thakur"
+// let newStr= str.charAt(1)
+// console.log(newStr)
+
+// practice
+
+// Prompt the user to enter their full name. Generate a username for them based on the input. Start username with @, followed by their full name and ending with the fullname length.
+
+
+let firstName = "Kunal"
+let secondName = "Thakur"
+let concateName = firstName.concat(secondName).toLowerCase()
+let lengthOfName = concateName.length
+console.log(`@${concateName}${lengthOfName}`)
