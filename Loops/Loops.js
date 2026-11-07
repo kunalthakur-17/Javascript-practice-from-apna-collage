@@ -71,3 +71,34 @@
 // for (let key in user) {
 //     console.log(key, user[key]);
 // }
+
+
+
+// Let‘s Practice
+
+
+// Print all even numbers from 0 to 100 using for loop
+
+// let n = 100
+
+// for(let i =0; i<=n; i++){
+//     console.log(i)
+// }
+
+// Print all even numbers from 0 to 100 using while loop
+
+// let n = 1
+
+// while(n<=100){
+//     console.log(n)
+//     n++
+// }
+
+// Print all even numbers from 100 to 0 using do while loop
+
+let n = 100
+
+do{
+    console.log(n)
+    n-=1
+}while(n>=0)
