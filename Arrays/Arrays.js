@@ -44,8 +44,39 @@
 
 // Looping over an Array Print all elements of an array using for of loop
 
-let marks = [ 96, 75, 48, 83, 66 ];
+// let marks = [ 96, 75, 48, 83, 66 ];
 
-for(let mark of marks){
-    console.log(mark)
+// for(let mark of marks){
+//     console.log(mark)
+// }
+
+
+
+// Let‘s Practice 1
+// For a given array with marks of students -> [85, 97, 44, 37, 76, 60] Find the average marks of the entire class.
+
+// let student = [85, 97, 44, 37, 76, 60]
+// let total = 0
+
+// for(let i = 0; i<student.length;i++){
+//     total+=student[i]
+// }
+// let averageMarks = total/student.length
+// console.log(averageMarks)
+
+// Practice 2
+
+// For a given array with prices of 5 items -> [250, 645, 300, 900, 50] All items have an offer of 10% OFF on them. Change the array to store final price after applying offer.
+
+let itemsPrice =  [250, 645, 300, 900, 50]
+let newPrice = []
+let offer = 10
+for(let i = 0; i<itemsPrice.length; i++){
+let item = itemsPrice[i]
+let newOfferPrice = item*offer/100
+let finalPrice = item-newOfferPrice
+newPrice.push(finalPrice)
+
 }
+
+console.log(newPrice)
