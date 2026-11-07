@@ -1,6 +1,6 @@
 // Arrays in JS Collections of items
 
-// let heroes = [ "ironman","hulk","thor","“batman”" ];
+// let heroes = [ "ironman","hulk","thor",""batman"" ];
 // let marks = [ 96, 75, 48, 83, 66 ];
 // let info = [ "rahul",86,"Delhi" ];
 
@@ -118,7 +118,29 @@
 // console.log(newItems)
 
 
-let itemsPrice =  [250, 645, 300, 900, 50]
-let newItems=itemsPrice.splice(0,3,"Kunal","thakur", "Arti")
+// let itemsPrice =  [250, 645, 300, 900, 50]
+// let newItems=itemsPrice.splice(0,3,"Kunal","thakur", "Arti")
 
-console.log(itemsPrice)
+// console.log(itemsPrice)
+
+// Practice 3
+
+// Qs. Create an array to store companies -> "Bloomberg","Microsoft","Uber","Google","IBM","Netflix"
+// a. Remove the first company from the array
+// b. Remove Uber & Add Ola in its place
+// c. Add Amazon at the end
+
+// a
+// let companies = ["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"]
+
+// companies.shift()
+// console.log(companies)
+
+// b
+// let companies = ["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"]
+// companies.splice(2,1,"Ola")
+// console.log(companies)
+// c
+let companies = ["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"]
+companies.push("Amazon")
+console.log(companies)
