@@ -68,15 +68,57 @@
 
 // For a given array with prices of 5 items -> [250, 645, 300, 900, 50] All items have an offer of 10% OFF on them. Change the array to store final price after applying offer.
 
+// let itemsPrice =  [250, 645, 300, 900, 50]
+// let newPrice = []
+// let offer = 10
+// for(let i = 0; i<itemsPrice.length; i++){
+// let item = itemsPrice[i]
+// let newOfferPrice = item*offer/100
+// let finalPrice = item-newOfferPrice
+// newPrice.push(finalPrice)
+
+// }
+
+// console.log(newPrice)
+
+
+// Arrray method
+
+// push
+// let itemsPrice =  [250, 645, 300, 900, 50]
+// itemsPrice.push(10)
+
+// console.log(itemsPrice)
+
+// pop method
+
+// let itemsPrice =  [250, 645, 300, 900, 50]
+// itemsPrice.pop()
+
+// console.log(itemsPrice)
+
+// shift
+// let itemsPrice =  [250, 645, 300, 900, 50]
+// itemsPrice.shift()
+
+// console.log(itemsPrice)
+
+// usshift
+
+// let itemsPrice =  [250, 645, 300, 900, 50]
+// itemsPrice.unshift(10)
+
+// console.log(itemsPrice)
+
+
+// slice item
+// let itemsPrice =  [250, 645, 300, 900, 50]
+// let newItems=itemsPrice.slice(0,3)
+
+// console.log(newItems)
+
+
 let itemsPrice =  [250, 645, 300, 900, 50]
-let newPrice = []
-let offer = 10
-for(let i = 0; i<itemsPrice.length; i++){
-let item = itemsPrice[i]
-let newOfferPrice = item*offer/100
-let finalPrice = item-newOfferPrice
-newPrice.push(finalPrice)
+let newItems=itemsPrice.splice(0,3,"Kunal","thakur", "Arti")
 
-}
-
-console.log(newPrice)
+console.log(itemsPrice)
