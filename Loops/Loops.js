@@ -77,7 +77,7 @@
 // Let‘s Practice
 
 
-// Print all even numbers from 0 to 100 using for loop
+// Print all  numbers from 0 to 100 using for loop
 
 // let n = 100
 
@@ -85,7 +85,7 @@
 //     console.log(i)
 // }
 
-// Print all even numbers from 0 to 100 using while loop
+// Print all  numbers from 0 to 100 using while loop
 
 // let n = 1
 
@@ -94,11 +94,13 @@
 //     n++
 // }
 
-// Print all even numbers from 100 to 0 using do while loop
+// Print all  numbers from 100 to 0 using do while loop
 
-let n = 100
+// let n = 100
 
-do{
-    console.log(n)
-    n-=1
-}while(n>=0)
+// do{
+//     console.log(n)
+//     n-=1
+// }while(n>=0)
+
+
