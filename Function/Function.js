@@ -179,3 +179,27 @@
 
 
 
+// prectice 
+
+// We are given array of marks of students. Filter our of the marks of students that scored 90+
+
+// let marks = [90,98,89,78,99,91]
+
+// let result = marks.filter((val)=>{
+//     return val>=90
+// })
+// console.log(result)
+
+// Calculate the total salary.
+
+let employees = [
+    { name: "Kunal", salary: 30000 },
+    { name: "Rahul", salary: 40000 },
+    { name: "Aman", salary: 50000 }
+];
+
+let result = employees.reduce((sum,val)=>{
+return sum+val.salary
+},0)
+
+console.log(result)
